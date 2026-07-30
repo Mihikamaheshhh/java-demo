@@ -1,155 +1,273 @@
-# End-to-End CI/CD Pipeline for Java Spring Boot Application using Jenkins, Docker, SonarQube, Prometheus & Grafana
+# 🚀 End-to-End CI/CD Pipeline for Java Spring Boot using Jenkins, Docker, SonarQube, Prometheus & Grafana
 
-## Project Overview
+<div align="center">
 
-This project demonstrates an end-to-end Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Java Spring Boot application. The pipeline automates the software delivery lifecycle—from source code integration to deployment using modern DevOps tools and best practices.
+# 🚀 Java Spring Boot DevOps CI/CD Pipeline
 
-In addition to CI/CD automation, the project includes a complete monitoring solution using Spring Boot Actuator, Prometheus, and Grafana to collect and visualize application metrics in real time.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=CI/CD%20Pipeline&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
----
-
-# Key Features
-
-* Automated GitHub source code checkout
-* Maven build and dependency management
-* Automated unit testing
-* SonarQube static code analysis
-* Docker image creation
-* Automatic container replacement
-* AWS EC2 deployment
-* Spring Boot Actuator integration
-* Prometheus metrics collection
-* Grafana dashboards for monitoring
-* Fully automated Jenkins pipeline
-* Continuous code quality and application monitoring
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=26&duration=3500&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Java+Spring+Boot+CI%2FCD+Pipeline;Jenkins+%7C+Docker+%7C+SonarQube;Prometheus+%7C+Grafana+Monitoring;AWS+EC2+Deployment;DevOps+Automation+Project" />
+</p>
 
 ---
 
-# Technology Stack
+### ⭐ Built with Modern DevOps Technologies
 
-| Category             | Technology    |
-| -------------------- | ------------- |
-| Programming Language | Java 21       |
-| Framework            | Spring Boot 3 |
-| Build Tool           | Maven         |
-| Version Control      | Git & GitHub  |
-| CI/CD                | Jenkins       |
-| Code Quality         | SonarQube     |
-| Containerization     | Docker        |
-| Monitoring           | Prometheus    |
-| Visualization        | Grafana       |
-| Cloud Platform       | AWS EC2       |
-| Operating System     | Ubuntu Linux  |
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-21-red?style=for-the-badge&logo=openjdk)
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3-brightgreen?style=for-the-badge&logo=springboot)
+
+![Maven](https://img.shields.io/badge/Maven-Build-blue?style=for-the-badge&logo=apachemaven)
+
+![Jenkins](https://img.shields.io/badge/Jenkins-CI-red?style=for-the-badge&logo=jenkins)
+
+![Docker](https://img.shields.io/badge/Docker-Container-blue?style=for-the-badge&logo=docker)
+
+![SonarQube](https://img.shields.io/badge/SonarQube-Code_Quality-4E9BCD?style=for-the-badge&logo=sonarqube)
+
+![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-orange?style=for-the-badge&logo=prometheus)
+
+![Grafana](https://img.shields.io/badge/Grafana-Dashboard-F46800?style=for-the-badge&logo=grafana)
+
+![AWS](https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws)
+
+![Ubuntu](https://img.shields.io/badge/Ubuntu-Linux-E95420?style=for-the-badge&logo=ubuntu)
+
+</p>
 
 ---
 
-# Project Architecture
+<p align="center">
+
+<a href="https://github.com/yourusername/java-demo">
+<img src="https://img.shields.io/badge/View_Project-181717?style=for-the-badge&logo=github">
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/Live_Demo-success?style=for-the-badge">
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/Documentation-blue?style=for-the-badge">
+</a>
+
+<a href="#">
+<img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+</a>
+
+</p>
+
+</div>
+
+---
+
+# 📖 Project Overview
+
+This project demonstrates a **complete enterprise-level CI/CD pipeline** for a Java Spring Boot application using modern DevOps tools.
+
+The pipeline automates the complete software delivery lifecycle—from code commit to deployment—while continuously monitoring application performance using **Prometheus** and **Grafana**.
+
+---
+
+# ✨ Features
+
+✅ GitHub Source Code Integration
+
+✅ Automated Jenkins Pipeline
+
+✅ Maven Build Automation
+
+✅ Unit Testing
+
+✅ SonarQube Static Code Analysis
+
+✅ Docker Image Creation
+
+✅ Automatic Container Deployment
+
+✅ AWS EC2 Deployment
+
+✅ Spring Boot Actuator Metrics
+
+✅ Prometheus Monitoring
+
+✅ Grafana Dashboards
+
+✅ Continuous Delivery
+
+---
+
+# 🛠 Technology Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Java 21 | Programming Language |
+| Spring Boot 3 | Backend Framework |
+| Maven | Build Tool |
+| Jenkins | CI/CD |
+| GitHub | Source Code |
+| Docker | Containerization |
+| SonarQube | Code Quality |
+| Prometheus | Metrics Collection |
+| Grafana | Visualization |
+| AWS EC2 | Deployment |
+| Ubuntu | Operating System |
+
+---
+
+# 🏗 Project Architecture
 
 ```text
-                    GitHub Repository
-                           │
-                           ▼
-                    Jenkins Pipeline
-                           │
-        ┌──────────────────┼──────────────────┐
-        │                  │                  │
-        ▼                  ▼                  ▼
-   Maven Build      Unit Testing      SonarQube Analysis
-                           │
-                           ▼
-                  Docker Image Build
-                           │
-                           ▼
-             Stop Existing Container
-                           │
-                           ▼
-            Deploy New Docker Container
-                           │
-                           ▼
-              Spring Boot Application
-                           │
-                /actuator/prometheus
-                           │
-                           ▼
-                     Prometheus Server
-                           │
-                           ▼
-                    Grafana Dashboard
+                        GitHub Repository
+                               │
+                               ▼
+                      Jenkins Pipeline
+                               │
+      ┌────────────────────────┼────────────────────────┐
+      │                        │                        │
+      ▼                        ▼                        ▼
+ Maven Build             Unit Testing          SonarQube Scan
+                               │
+                               ▼
+                    Build Docker Image
+                               │
+                               ▼
+                 Stop Existing Container
+                               │
+                               ▼
+                  Deploy New Container
+                               │
+                               ▼
+                 Spring Boot Application
+                               │
+                    /actuator/prometheus
+                               │
+                               ▼
+                        Prometheus Server
+                               │
+                               ▼
+                       Grafana Dashboard
 ```
 
 ---
 
-# CI/CD Pipeline Workflow
+# 🔄 CI/CD Workflow
 
-1. Checkout source code from GitHub.
-2. Build the application using Maven.
-3. Execute unit tests.
-4. Perform static code analysis using SonarQube.
-5. Package the application.
-6. Build the Docker image.
-7. Stop and remove the existing container.
-8. Deploy the latest Docker container.
-9. Expose Spring Boot Actuator metrics.
-10. Prometheus scrapes the application metrics.
-11. Grafana visualizes the collected metrics.
+```text
+Developer
+    │
+    ▼
+Git Push
+    │
+    ▼
+GitHub Repository
+    │
+    ▼
+Jenkins Pipeline
+    │
+    ├──────────────► Maven Build
+    │
+    ├──────────────► Unit Test
+    │
+    ├──────────────► SonarQube Scan
+    │
+    ├──────────────► Package Application
+    │
+    ├──────────────► Docker Build
+    │
+    ├──────────────► Docker Deploy
+    │
+    ▼
+Running Spring Boot Application
+    │
+    ▼
+Actuator Metrics
+    │
+    ▼
+Prometheus
+    │
+    ▼
+Grafana Dashboard
+```
 
 ---
 
-# Running the Application Locally
+# 🚀 Jenkins Pipeline Stages
 
-Clone the repository:
+| Stage | Description |
+|---------|-------------|
+| Checkout | Clone GitHub Repository |
+| Build | Maven Clean Package |
+| Test | Execute Unit Tests |
+| SonarQube | Static Code Analysis |
+| Docker Build | Build Docker Image |
+| Docker Deploy | Deploy Latest Container |
+| Monitoring | Metrics Collection |
+
+---
+
+# 🚀 Running Locally
+
+## Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/java-demo.git
+git clone https://github.com/yourusername/java-demo.git
 ```
-
-Navigate to the project directory:
 
 ```bash
 cd java-demo
 ```
 
-Build the project:
+---
+
+## Build
 
 ```bash
 mvn clean package
 ```
 
-Run the application:
+---
+
+## Run
 
 ```bash
 java -jar target/java-demo-1.0.0.jar
 ```
 
-Access the application:
+---
 
-```text
+Application
+
+```
 http://localhost:8081
 ```
 
-Health Endpoint:
+Health
 
-```text
+```
 http://localhost:8081/actuator/health
 ```
 
-Prometheus Metrics Endpoint:
+Metrics
 
-```text
+```
 http://localhost:8081/actuator/prometheus
 ```
 
 ---
 
-# Docker Deployment
+# 🐳 Docker Deployment
 
-Build the Docker image:
+Build Image
 
 ```bash
 docker build -t java-demo .
 ```
 
-Run the Docker container:
+Run Container
 
 ```bash
 docker run -d \
@@ -158,7 +276,7 @@ docker run -d \
 java-demo
 ```
 
-Verify the running container:
+Check Running Containers
 
 ```bash
 docker ps
@@ -166,214 +284,151 @@ docker ps
 
 ---
 
-# Monitoring Stack
-
-The project uses Spring Boot Actuator, Micrometer, Prometheus, and Grafana to monitor the application.
-
-## Monitoring Workflow
+# 📊 Monitoring Stack
 
 ```text
-Spring Boot Application
-          │
-          │ /actuator/prometheus
-          ▼
-     Prometheus
-          │
-          ▼
-      Grafana
+Spring Boot
+      │
+      ▼
+Spring Boot Actuator
+      │
+      ▼
+Prometheus
+      │
+      ▼
+Grafana
 ```
 
-Start the monitoring services:
+---
+
+## Start Monitoring
 
 ```bash
 docker compose up -d
 ```
 
-Verify the running containers:
+---
 
-```bash
-docker ps
-```
+# 🌐 Services
+
+| Service | URL |
+|----------|------|
+| Spring Boot | http://localhost:8081 |
+| Actuator | http://localhost:8081/actuator |
+| Prometheus | http://localhost:9090 |
+| Grafana | http://localhost:3000 |
+| SonarQube | http://localhost:9000 |
 
 ---
 
-# Access Services
+# 📈 Metrics Monitored
 
-| Service                 | URL                            |
-| ----------------------- | ------------------------------ |
-| Spring Boot Application | http://localhost:8081          |
-| Spring Boot Actuator    | http://localhost:8081/actuator |
-| Prometheus              | http://localhost:9090          |
-| Grafana                 | http://localhost:3000          |
-| SonarQube               | http://localhost:9000          |
+- JVM Memory
+- Heap Usage
+- CPU Usage
+- HTTP Requests
+- Active Threads
+- Garbage Collection
+- System Load
+- Process Uptime
+- Tomcat Metrics
 
 ---
 
-# Grafana
-
-Default Login
+# 📂 Project Structure
 
 ```text
-Username: admin
-Password: admin
-```
-
-Recommended Dashboards
-
-* Spring Boot Statistics (Dashboard ID: 11378)
-* JVM Metrics
-* Docker Container Metrics
-
----
-
-# Prometheus Configuration
-
-Prometheus scrapes metrics from the Spring Boot Actuator endpoint.
-
-Example configuration:
-
-```yaml
-global:
-  scrape_interval: 15s
-
-scrape_configs:
-  - job_name: spring-boot-app
-    metrics_path: /actuator/prometheus
-    static_configs:
-      - targets:
-          - java-demo-container:8081
-```
-
----
-
-# Jenkins Configuration
-
-Configure the following before running the pipeline:
-
-* JDK
-* Maven
-* Docker
-* Jenkins Pipeline
-* SonarQube Server
-* GitHub Repository Integration
-
----
-
-# SonarQube
-
-Access the SonarQube dashboard:
-
-```text
-http://<EC2-Public-IP>:9000
-```
-
-Run code analysis:
-
-```bash
-mvn sonar:sonar
-```
-
----
-
-# Metrics Monitored
-
-* JVM Memory Usage
-* Heap Memory
-* Non-Heap Memory
-* CPU Usage
-* HTTP Request Metrics
-* Tomcat Session Metrics
-* Active Threads
-* Garbage Collection
-* Process Uptime
-* System Load
-
----
-
-# Project Structure
-
-```text
-java-demo/
+java-demo
+│
 ├── Dockerfile
 ├── docker-compose.yml
-├── monitoring/
-│   ├── prometheus/
-│   │   └── prometheus.yml
-│   └── grafana/
-│       ├── dashboards/
-│       └── provisioning/
-│           ├── dashboards/
-│           └── datasources/
-├── src/
-│   ├── main/
-│   └── test/
-├── target/
+├── Jenkinsfile
 ├── pom.xml
 ├── README.md
-└── .gitignore
+│
+├── monitoring
+│   ├── prometheus
+│   │      └── prometheus.yml
+│   │
+│   └── grafana
+│       ├── dashboards
+│       └── provisioning
+│
+├── src
+│   ├── main
+│   └── test
+│
+└── target
 ```
 
 ---
 
-# Screenshots
+# 📷 Screenshots
 
-Include screenshots of the following:
+Replace these placeholders with your screenshots.
 
-* Jenkins Dashboard
-* Jenkins Pipeline Execution
-* SonarQube Dashboard
-* Docker Images
-* Running Docker Containers
-* Spring Boot Application
-* Spring Boot Actuator Metrics
-* Prometheus Targets
-* Prometheus Graph
-* Grafana Dashboard
-* AWS EC2 Instance
+| Jenkins | SonarQube |
+|-----------|-----------|
+| ![](images/jenkins.png) | ![](images/sonarqube.png) |
 
----
+| Docker | Prometheus |
+|----------|-------------|
+| ![](images/docker.png) | ![](images/prometheus.png) |
 
-# Future Enhancements
-
-* Kubernetes Deployment
-* Helm Charts
-* Argo CD Integration
-* AWS ECR Integration
-* Node Exporter Monitoring
-* cAdvisor Integration
-* Prometheus Alertmanager
-* Slack Notifications
-* Email Notifications
-* Terraform Infrastructure Provisioning
-* Multi-stage Docker Builds
+| Grafana |
+|----------|
+| ![](images/grafana.png) |
 
 ---
 
-# Author
+# 🔮 Future Enhancements
 
-**Mihika Patekar**
-
-## Skills
-
-* AWS
-* Jenkins
-* Docker
-* Kubernetes
-* Terraform
-* Maven
-* SonarQube
-* Prometheus
-* Grafana
-* Linux
-* Git & GitHub
-* CI/CD Automation
+- ☸ Kubernetes Deployment
+- 🚀 Helm Charts
+- 🔄 ArgoCD
+- 📦 AWS ECR
+- 📊 Node Exporter
+- 📈 cAdvisor
+- 🔔 AlertManager
+- 💬 Slack Notifications
+- 📧 Email Notifications
+- ☁ Terraform Infrastructure
+- 🐳 Multi-stage Docker Builds
 
 ---
 
-# License
+# 👨‍💻 Author
 
-This project is intended for learning and demonstration purposes.
+## Mihika Patekar
+
+### Skills
+
+- AWS
+- Docker
+- Jenkins
+- Kubernetes
+- Terraform
+- SonarQube
+- Prometheus
+- Grafana
+- Maven
+- Linux
+- GitHub Actions
 
 ---
 
-If you found this project useful, consider starring the repository.
+<div align="center">
+
+## ⭐ Support
+
+If you found this project useful,
+
+### ⭐ Star this Repository ⭐
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=22&duration=3000&pause=1000&color=00FFAA&center=true&vCenter=true&width=600&lines=Thanks+for+visiting!;Happy+Learning!;Keep+Building+Awesome+Projects!"/>
+
+---
+
+Made with ❤️ using Java, Spring Boot, Jenkins, Docker & AWS
+
+</div>
