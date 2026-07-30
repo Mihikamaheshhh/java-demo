@@ -373,7 +373,8 @@ Replace these placeholders with your screenshots.
 
 | Docker | Prometheus |
 |----------|-------------|
-| ![](images/docker.png) | ![](images/prometheus.png) |
+| ![](images/docker.png) | ![](<img width="1917" height="987" alt="Screenshot 2026-07-30 160601" src="https://github.com/user-attachments/assets/d79f69f5-2cb9-4317-9867-7c70435ac41e" />
+) |
 
 | Grafana |
 |----------|
