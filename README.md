@@ -369,7 +369,8 @@ Replace these placeholders with your screenshots.
 
 | Jenkins | SonarQube |
 |-----------|-----------|
-| ![](images/jenkins.png) | ![](images/sonarqube.png) |
+| ![](images/jenkins.png) | ![](<img width="1906" height="963" alt="Screenshot 2026-07-30 210640" src="https://github.com/user-attachments/assets/579df819-bba7-46f0-aa7f-80e041fe1f6b" />
+) |
 
 | Docker | Prometheus |
 |----------|-------------|
