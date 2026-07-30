@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates an end-to-end Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Java Spring Boot application. The pipeline automates the software delivery lifecycle—from source code integration to deployment—using modern DevOps tools and best practices.
+This project demonstrates an end-to-end Continuous Integration and Continuous Deployment (CI/CD) pipeline for a Java Spring Boot application. The pipeline automates the software delivery lifecycle—from source code integration to deployment using modern DevOps tools and best practices.
 
 In addition to CI/CD automation, the project includes a complete monitoring solution using Spring Boot Actuator, Prometheus, and Grafana to collect and visualize application metrics in real time.
 
