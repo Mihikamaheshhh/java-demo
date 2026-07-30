@@ -369,17 +369,20 @@ Replace these placeholders with your screenshots.
 
 | Jenkins | SonarQube |
 |-----------|-----------|
-| ![](images/jenkins.png) | ![](<img width="1906" height="963" alt="Screenshot 2026-07-30 210640" src="https://github.com/user-attachments/assets/579df819-bba7-46f0-aa7f-80e041fe1f6b" />
+| ![](<img width="1907" height="852" alt="image" src="https://github.com/user-attachments/assets/07a796f9-6cee-4bce-92db-ab35ea909c1a" />
+) | ![](<img width="1906" height="963" alt="Screenshot 2026-07-30 210640" src="https://github.com/user-attachments/assets/579df819-bba7-46f0-aa7f-80e041fe1f6b" />
 ) |
 
 | Docker | Prometheus |
 |----------|-------------|
-| ![](images/docker.png) | ![](<img width="1917" height="987" alt="Screenshot 2026-07-30 160601" src="https://github.com/user-attachments/assets/d79f69f5-2cb9-4317-9867-7c70435ac41e" />
+| ![](<img width="1916" height="198" alt="image" src="https://github.com/user-attachments/assets/9c2a7c15-802f-4119-8193-0d7cda638acb" />
+) | ![](<img width="1917" height="987" alt="Screenshot 2026-07-30 160601" src="https://github.com/user-attachments/assets/d79f69f5-2cb9-4317-9867-7c70435ac41e" />
 ) |
 
 | Grafana |
 |----------|
-| ![](images/grafana.png) |
+| ![](<img width="1913" height="942" alt="image" src="https://github.com/user-attachments/assets/d498fd51-4ece-409f-a2a2-cad9f7835c94" />
+) |
 
 ---
 
