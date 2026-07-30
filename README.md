@@ -432,4 +432,3 @@ If you found this project useful,
 Made with ❤️ using Java, Spring Boot, Jenkins, Docker & AWS
 
 </div>
-<img width="1907" height="842" alt="image" src="https://github.com/user-attachments/assets/bd8eee8a-6a77-49de-bc10-1b36b22523fe" />
